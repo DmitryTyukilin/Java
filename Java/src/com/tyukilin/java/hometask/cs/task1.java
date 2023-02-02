@@ -8,11 +8,11 @@ package com.tyukilin.java.hometask.cs;
 public class task1 {
     public static void main(String[] args) {
         int minutes = 45;
-        if (0 > minutes || minutes >= 59) { // time check
+        if (0 > minutes || minutes >= 59) { // time check возможно сделать короче? ругается idea
             System.out.println("Time error");
         } else getQuarterHour(minutes);
     }
-    public static void getQuarterHour(int minutes) {
+    public static void getQuarterHour(int minutes) { // получить четверь часа
         if (minutes <= 15) {
             System.out.println("It one quarter hour");
         } else if (minutes <= 30) {
