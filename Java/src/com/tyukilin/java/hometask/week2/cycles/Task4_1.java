@@ -12,7 +12,6 @@ public class Task4_1 {
         int oddNumber = getOddNumber(number);
         System.out.println("Количество чётных чисел " + evenNumber);
         System.out.println("Количество не чётных чисел " + oddNumber);
-
     }
 
     public static int getOddNumber (int number1) {
